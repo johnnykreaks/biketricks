@@ -17,7 +17,7 @@ header {
 	background-size:125%;
 	height:100vh;
 }
-header h2, p {
+header h2, header p {
 	text-shadow:1px 1px 10px black;
 	text-transform:uppercase;
 }
@@ -38,15 +38,48 @@ header img {
 }
 /* SECTION */
 section {
-	
+	overflow:hidden;
+	background:url("../img/iron.jpg");
+	background-size:cover;
+	height:160vh;
 }
 section article {
+
+}
+/*
+section #meetpros {
+	position:fixed;
+	top:40%;
+	right:10px;
+	width:50px;
+	height:50px;
+	background-color:red;
+}
+*/
+section #sidebar {
+	/*overflow:hidden;*/
+	float:left;
+	background:url("../img/sidebar.png") no-repeat;
+	background-size:cover;
+	width:600px;
+	height:200px;
 	
 }
-section article h2 {
-	transform:rotate(90deg);
-	transform-origin:10% 0%;
-	float:right;
+section #sidebar img {
+	border-radius:50px;
+	float:left;
+	padding:25px;
+	width:150px;
+	height:150px;
+}
+section #sidebar p {
+	width:275px;
+	text-align:center;
+	margin:50px 0px;
+	display:inline-block;
+	font-variant:small-caps;
+	font-family:Roboto, sans-serif;
+	color:white;
 }
 /* FOOTER */
 footer {
