@@ -45,6 +45,8 @@ section article {
 }
 section article h2 {
 	transform:rotate(90deg);
+	transform-origin:10% 0%;
+	float:right;
 }
 /* FOOTER */
 footer {
